@@ -81,7 +81,7 @@ function App() {
     <div className="App">
       <div style={{ padding: '20px' }}>
         <h1>Financial Investment Bar Graph</h1>
-        <InputForm onSubmit={calculateInvestment} totalInvestment={totalInvestment}   />
+        <InputForm onSubmit={calculateInvestment} setTotalInvestment={setTotalInvestment} />
         {chartData && <Chart data={chartData} />}
       </div>
       <div>

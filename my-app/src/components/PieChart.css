@@ -1,4 +1,30 @@
 /* PieChart.css */
+/* PieChart.css */
+/* PieChart.css */
+/* PieChart.css */
+.chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.chart {
+  width: 30%; /* Adjust the width as needed */
+  margin-bottom: 20px; /* Add some space between the charts */
+}
+
+/* Maintain aspect ratio */
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* Apply styles to the last pie chart */
+.chart:last-child {
+  margin-right: 0; /* Remove margin from the last chart */
+}
 
 .pie-chart {
   position: relative;

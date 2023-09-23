@@ -87,15 +87,26 @@ function PieChart({ formData }) {
   };
 
   return (
-    <div>
-      <h2>Fixed-Income Investments</h2>
-      <Pie data={fixedIncomeChartData} />
-      <h2>Equity Investments</h2>
-      <Pie data={equityChartData} />
-      <h2>Real Estate</h2>
-      <Pie data={realEstateChartData} />
+    <div className="chart-container">
+      <div className="chart">
+        <h2>Fixed-Income Investments</h2>
+        <Pie data={fixedIncomeChartData} />
+      </div>
+      <div className="chart">
+        <h2>Equity Investments</h2>
+        <Pie data={equityChartData} />
+      </div>
+      <div className="chart">
+        <h2>Real Estate</h2>
+        <Pie data={realEstateChartData} />
+      </div>
     </div>
   );
 }
 
 export default PieChart;
+
+
+
+
+
