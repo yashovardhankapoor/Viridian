@@ -1,14 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import './InputForm.css';
 
-const InputForm = ({ onSubmit }) => {
+const InputForm = ({ onSubmit, setTotalInvestment }) => {
   const [principal, setPrincipal] = useState('');
   const [rate, setRate] = useState('');
   const [years, setYears] = useState('');
+
+  useEffect(() => {
+    if (principal !== '') {
+      setTotalInvestment(principal);
+    }
+  }, [principal, setTotalInvestment]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     onSubmit({ principal, rate, years });
   };
+
+
 
   return (
     <div style={{ textAlign: 'center' }}>

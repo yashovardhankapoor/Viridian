@@ -2,6 +2,8 @@ import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
 const Chart = ({ data }) => {
+
+
   return (
     <div style={{ textAlign: 'center' }}>
       <h2>Investment Growth Chart</h2>
