@@ -13,6 +13,21 @@ function PieChart({ formData }) {
   const realEstateLabels = [];
   const realEstateData = [];
 
+  const totalChartData = {
+    labels: ['Fixed Income Investments', 'Equity Investments', 'Real Estate'],
+    datasets: [
+      {
+        data: [35, 45, 20],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.6)',
+          'rgba(54, 162, 235, 0.6)',
+          'rgba(255, 206, 86, 0.6)'
+        ],
+        borderWidth: 1
+      }
+    ]
+  };
+
   // Populate the arrays based on the category
   Object.keys(allocationData).forEach((investmentType) => {
     Object.keys(allocationData[investmentType]).forEach((area) => {
@@ -86,27 +101,30 @@ function PieChart({ formData }) {
     ]
   };
 
+  
+
   return (
     <div className="chart-container">
       <div className="chart">
-        <h2>Fixed-Income Investments</h2>
-        <Pie data={fixedIncomeChartData} />
+        <h2>Allocation</h2>
+        <Pie data={totalChartData} />
       </div>
-      <div className="chart">
-        <h2>Equity Investments</h2>
-        <Pie data={equityChartData} />
-      </div>
-      <div className="chart">
-        <h2>Real Estate</h2>
-        <Pie data={realEstateChartData} />
+      <div className="pie-charts">
+        <div className="chart">
+          <h2>Fixed-Income Investments</h2>
+          <Pie data={fixedIncomeChartData} />
+        </div>
+        <div className="chart">
+          <h2>Equity Investments</h2>
+          <Pie data={equityChartData} />
+        </div>
+        <div className="chart">
+          <h2>Real Estate</h2>
+          <Pie data={realEstateChartData} />
+        </div>
       </div>
     </div>
   );
 }
 
 export default PieChart;
-
-
-
-
-
