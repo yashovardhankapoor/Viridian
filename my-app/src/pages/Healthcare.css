@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.search-container {
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  transition: box-shadow 0.3s ease; /* Add transition for box-shadow */
+}
+
+.search-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.search-bar input[type="text"] {
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  border-radius: 0;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar input[type="text"]:focus {
+  border-color: #c63d2f;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #3085c3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #c63d2f;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #3085c3;
+  color: #fff;
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #f2ee9d;
+}
+
+/* App.css */
+
+/* General styles for larger screens */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  border-radius: 0;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #3085c3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .search-bar input[type="text"] {
+    width: 100%;
+  }
+
+  .table-container {
+    overflow-x: auto; /* Add horizontal scroll for smaller screens */
+  }
+
+  .table {
+    width: auto; /* Set table width to auto for responsiveness */
+    max-width: 100%; /* Ensure the table does not overflow its container */
+  }
+
+  .table th,
+  .table td {
+    white-space: nowrap; /* Prevent text from wrapping in cells */
+  }
+}
+
+/* App.css */
+
+/* Rest of your CSS... */
+
+.table-container {
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+@media (max-width: 768px) {
+  /* Apply responsive styles for screens with a maximum width of 768px (adjust as needed) */
+  .table {
+    width: 100%;
+    margin-top: 20px;
+    display: block; /* Stack columns */
+  }
+
+  .table th,
+  .table td {
+    padding: 8px; /* Adjust cell padding for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* App.css */
+
+/* Rest of your CSS... */
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #3085c3;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Apply responsive styles for screens with a maximum width of 768px (adjust as needed) */
+@media (max-width: 768px) {
+  .table th,
+  .table td {
+    padding: 8px; /* Adjust cell padding for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
+    display: block; /* Stack columns */
+    width: 100%; /* Full width for stacked columns */
+    box-sizing: border-box;
+  }
+}

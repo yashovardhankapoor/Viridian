@@ -1,43 +1,19 @@
+// App.js
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom"; // Import Routes instead of Switch
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import BigDiv from "./components/bigDiv";
-import Features from "./components/features";
-
-function HealthcareFeature() {
-  return (
-    <div>
-      <h2>Healthcare Feature</h2>
-      {/* Add healthcare feature content here */}
-    </div>
-  );
-}
-
-function WealthcareFeature() {
-  return (
-    <div>
-      <h2>Wealthcare Feature</h2>
-      {/* Add wealthcare feature content here */}
-    </div>
-  );
-}
+import Home from "./Home"; // Import the Home component
+import Healthcare from "./pages/Healthcare";
+import WealthcareFeature from "./Home"; // Import the WealthcareFeature from Home.js
 
 function App() {
   return (
     <Router>
-      <div>
-        <Navbar />
-        <BigDiv />
-        <hr />
-        <Features />
-
-        {/* Define routes using Routes */}
-        <Routes>
-          <Route path="/healthcare" element={<HealthcareFeature />} />
-          <Route path="/wealthcare" element={<WealthcareFeature />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/healthcare" element={<Healthcare />} />
+        <Route exact path="/wealthcare" element={<WealthcareFeature />} />
+      </Routes>
     </Router>
   );
 }

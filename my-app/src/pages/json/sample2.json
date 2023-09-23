@@ -1,0 +1,659 @@
+[
+  {
+    "DRUG1": "1. Ampicillin Amoxicillin }",
+    "DRUG2": "Oral contraceptives",
+    "REACTION": "Interruption of enterohepatic circulation of the estrogen ?\nfailure of contraception ; Advise alternative contraception .\nInhibition of gut flora ? decreased vit K production in\ngut risk of bleeding ; Monitor INR and reduce anticoagu\nlant dose if needed ."
+  },
+  {
+    "DRUG1": "1. Ampicillin Amoxicillin }",
+    "DRUG2": "Oral anticoagulants",
+    "REACTION": "Interruption of enterohepatic circulation of the estrogen ?\nfailure of contraception ; Advise alternative contraception .\nInhibition of gut flora ? decreased vit K production in\ngut risk of bleeding ; Monitor INR and reduce anticoagu\nlant dose if needed ."
+  },
+  {
+    "DRUG1": "2. Probenecid",
+    "DRUG2": "Penicillin",
+    "REACTION": "Inhibition of tubular secretion ? prolongation of antibiotic"
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Ampicillin",
+    "REACTION": "action ; Desirable interaction utilized for single dose therapy ."
+  },
+  { "DRUG1": "", "DRUG2": "Cephalosporins", "REACTION": "" },
+  {
+    "DRUG1": "3. Allopurinol",
+    "DRUG2": "Ampicillin",
+    "REACTION": "Increased incidence of rashes ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "6 - Mercaptopurine",
+    "REACTION": "Inhibition of metabolism ; Reduce dose of 6 - MP / azathioprine"
+  },
+  { "DRUG1": "", "DRUG2": "Azathioprine", "REACTION": "to 1/3 ." },
+  {
+    "DRUG1": "",
+    "DRUG2": "Warfarin",
+    "REACTION": "Inhibition of metabolism ; Monitor and reduce dose of object"
+  },
+  { "DRUG1": "", "DRUG2": "Theophylline", "REACTION": "drug ." },
+  {
+    "DRUG1": "4. Carbenicillin",
+    "DRUG2": "Aspirin and other",
+    "REACTION": "Perturbation of surface receptors on platelets ? additive"
+  },
+  {
+    "DRUG1": "Ticarcillin",
+    "DRUG2": "antiplatelet drugs",
+    "REACTION": "platelet inhibition ? risk of bleeding : Avoid concurrent use"
+  },
+  {
+    "DRUG1": "5. Ceftriaxone",
+    "DRUG2": "Oral anticoagulants",
+    "REACTION": "Additive hypoprothrombinaemia ? bleeding : Monitor INP\nand reduce dose of anticoagulant ."
+  },
+  {
+    "DRUG1": "Cefoperazone",
+    "DRUG2": "Oral anticoagulants",
+    "REACTION": "Additive hypoprothrombinaemia ? bleeding : Monitor INP\nand reduce dose of anticoagulant ."
+  },
+  {
+    "DRUG1": "6. Sulfonamides",
+    "DRUG2": "Phenytoin",
+    "REACTION": "Displacements + inhibition of metabolism ? phenytoin"
+  },
+  {
+    "DRUG1": "Cotrimoxazole",
+    "DRUG2": "",
+    "REACTION": "toxicity ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Warfarin",
+    "REACTION": "Displacement + inhibition of metabolism + decreased\nproduction of vit K in gut ? risk of bleeding ; Monitor INR\nand reduce dose of warfarin ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Sulfonylureas",
+    "REACTION": "Displacement + inhibition of metabolism ? hypoglycaemia :\nAvoid concurrent use ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Thiazide diuretics",
+    "REACTION": "Increased incidence of thrombocytopenia ; Avoid concurrent\nuse ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Oral contraceptives",
+    "REACTION": "Interruption of enterohepatic circulation of the estrogen ?\nfailure of contraception ; Advise alternative contraception ."
+  },
+  {
+    "DRUG1": "7. Metronidazole",
+    "DRUG2": "Alcohol",
+    "REACTION": "Possibly accumulation of acetaldehyde disulfiram - like or\nbizarre reactions ; Warn the patient not to drink alcohol ."
+  },
+  {
+    "DRUG1": "Tinidazole",
+    "DRUG2": "Alcohol",
+    "REACTION": "Possibly accumulation of acetaldehyde disulfiram - like or\nbizarre reactions ; Warn the patient not to drink alcohol ."
+  },
+  {
+    "DRUG1": "Cefoperazone",
+    "DRUG2": "Alcohol",
+    "REACTION": "Possibly accumulation of acetaldehyde disulfiram - like or\nbizarre reactions ; Warn the patient not to drink alcohol ."
+  },
+  {
+    "DRUG1": "8. Metronidazole",
+    "DRUG2": "Lithium salts",
+    "REACTION": "Decreased excretion ? Li toxicity : Monitor Li * level and\nreduce lithium dose ."
+  },
+  {
+    "DRUG1": "Tinidazole",
+    "DRUG2": "Lithium salts",
+    "REACTION": "Decreased excretion ? Li toxicity : Monitor Li * level and\nreduce lithium dose ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Warfarin",
+    "REACTION": "Inhibition of metabolism ? risk of bleeding . Avoid\nconcurrent use ."
+  },
+  {
+    "DRUG1": "9. Ciprofloxacin",
+    "DRUG2": "Theophylline } Warfarin",
+    "REACTION": "Inhibition of metabolism toxicity of object drug ; Monitor\nand reduce dose of object drug ."
+  },
+  {
+    "DRUG1": "Norfloxacin }",
+    "DRUG2": "Theophylline } Warfarin",
+    "REACTION": "Inhibition of metabolism toxicity of object drug ; Monitor\nand reduce dose of object drug ."
+  },
+  {
+    "DRUG1": "10. Erythromycin",
+    "DRUG2": "Astemizole",
+    "REACTION": "Inhibition of metabolism by CYP3A4 ? rise in blood level\nof object drug dangerous ventricular arrhythmia ,\nConcurrent use contraindicated ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Astemizole",
+    "REACTION": "Inhibition of metabolism by CYP3A4 ? rise in blood level\nof object drug dangerous ventricular arrhythmia ,\nConcurrent use contraindicated ."
+  },
+  { "DRUG1": "Clarithromycin", "DRUG2": "Cisapride", "REACTION": "" },
+  { "DRUG1": "Ketoconazole", "DRUG2": "Terfenadine", "REACTION": "" },
+  {
+    "DRUG1": "Itraconazole",
+    "DRUG2": "Phenytoin",
+    "REACTION": "Inhibition of metabolism , higher risk of myopathy :\nAvoid concurrent use ."
+  },
+  {
+    "DRUG1": "Itraconazole",
+    "DRUG2": "Carbamazepine",
+    "REACTION": "Inhibition of metabolism , higher risk of myopathy :\nAvoid concurrent use ."
+  },
+  { "DRUG1": "Fluconazole", "DRUG2": "Warfarin", "REACTION": "" },
+  { "DRUG1": "Fluconazole", "DRUG2": "Sulfonylureas", "REACTION": "" },
+  { "DRUG1": "Fluconazole", "DRUG2": "Diazepam", "REACTION": "" },
+  { "DRUG1": "Fluconazole", "DRUG2": "Theophylline", "REACTION": "" },
+  { "DRUG1": "Fluconazole", "DRUG2": "Cyclosporine", "REACTION": "" },
+  { "DRUG1": "", "DRUG2": "HIV protease inhibito", "REACTION": "" },
+  { "DRUG1": "", "DRUG2": "Statins", "REACTION": "" },
+  {
+    "DRUG1": "11. Gemfibrozil",
+    "DRUG2": "Statins",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "11. Gemfibrozil",
+    "DRUG2": "Oral contraceptives",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "11. Gemfibrozil",
+    "DRUG2": "Lithium salts",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "Nicotinic acid",
+    "DRUG2": "Statins",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "Nicotinic acid",
+    "DRUG2": "Oral contraceptives",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "Nicotinic acid",
+    "DRUG2": "Lithium salts",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "12. Tetracyclines",
+    "DRUG2": "Statins",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "12. Tetracyclines",
+    "DRUG2": "Oral contraceptives",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "12. Tetracyclines",
+    "DRUG2": "Lithium salts",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "}",
+    "DRUG2": "Statins",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "}",
+    "DRUG2": "Oral contraceptives",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "}",
+    "DRUG2": "Lithium salts",
+    "REACTION": "Increased risk of myopathy ; Caution in concurrent use .\nInterruption of enterohepatic circulation of the estrogen ? failure of contraception ; Advise alternative contraception . Rise in plasma Lit level due to decreased excretion ; Avoid use of tetracycline or monitor and reduce dose of lithium ."
+  },
+  {
+    "DRUG1": "13. Iron salts",
+    "DRUG2": "Tetracyclines",
+    "REACTION": "Decreased absorption due to formation of complexes in\ng.i.t. failure of antibiotic therapy ; Stager drug\nadministration by 2-3 hours ."
+  },
+  {
+    "DRUG1": "13. Iron salts",
+    "DRUG2": "Fluoroquinolones }",
+    "REACTION": "Decreased absorption due to formation of complexes in\ng.i.t. failure of antibiotic therapy ; Stager drug\nadministration by 2-3 hours ."
+  },
+  {
+    "DRUG1": "Calcium salts",
+    "DRUG2": "Tetracyclines",
+    "REACTION": "Decreased absorption due to formation of complexes in\ng.i.t. failure of antibiotic therapy ; Stager drug\nadministration by 2-3 hours ."
+  },
+  {
+    "DRUG1": "Calcium salts",
+    "DRUG2": "Fluoroquinolones }",
+    "REACTION": "Decreased absorption due to formation of complexes in\ng.i.t. failure of antibiotic therapy ; Stager drug\nadministration by 2-3 hours ."
+  },
+  {
+    "DRUG1": "Antacids",
+    "DRUG2": "Tetracyclines",
+    "REACTION": "Decreased absorption due to formation of complexes in\ng.i.t. failure of antibiotic therapy ; Stager drug\nadministration by 2-3 hours ."
+  },
+  {
+    "DRUG1": "Antacids",
+    "DRUG2": "Fluoroquinolones }",
+    "REACTION": "Decreased absorption due to formation of complexes in\ng.i.t. failure of antibiotic therapy ; Stager drug\nadministration by 2-3 hours ."
+  },
+  {
+    "DRUG1": "Sucralfate",
+    "DRUG2": "Minocycline",
+    "REACTION": "Enhanced vestibular toxicity ; Avoid concurrent use .\nAdditive ototoxicity and nephrotoxicity ; Avoid concurrent\nuse ."
+  },
+  {
+    "DRUG1": "Sucralfate",
+    "DRUG2": "Aminoglycoside",
+    "REACTION": "Enhanced vestibular toxicity ; Avoid concurrent use .\nAdditive ototoxicity and nephrotoxicity ; Avoid concurrent\nuse ."
+  },
+  {
+    "DRUG1": "Sucralfate",
+    "DRUG2": "antibiotics",
+    "REACTION": "Enhanced vestibular toxicity ; Avoid concurrent use .\nAdditive ototoxicity and nephrotoxicity ; Avoid concurrent\nuse ."
+  },
+  {
+    "DRUG1": "14. Furosemide",
+    "DRUG2": "Minocycline",
+    "REACTION": "Enhanced vestibular toxicity ; Avoid concurrent use .\nAdditive ototoxicity and nephrotoxicity ; Avoid concurrent\nuse ."
+  },
+  {
+    "DRUG1": "14. Furosemide",
+    "DRUG2": "Aminoglycoside",
+    "REACTION": "Enhanced vestibular toxicity ; Avoid concurrent use .\nAdditive ototoxicity and nephrotoxicity ; Avoid concurrent\nuse ."
+  },
+  {
+    "DRUG1": "14. Furosemide",
+    "DRUG2": "antibiotics",
+    "REACTION": "Enhanced vestibular toxicity ; Avoid concurrent use .\nAdditive ototoxicity and nephrotoxicity ; Avoid concurrent\nuse ."
+  },
+  {
+    "DRUG1": "15. Diuretics",
+    "DRUG2": "Tetracycline",
+    "REACTION": "Antianabolic effect of tetracycline increases urea production\nwhich is retained by the diuretic ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Lithium",
+    "REACTION": "Decreased excretion -- rise in Li level - toxicity ; Reduce\ndose of lithium and monitor level ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Digoxin",
+    "REACTION": "Hypokalaemia caused by diuretic increases digoxin toxicity\nGive K + sparing diurat supplernents ."
+  },
+  {
+    "DRUG1": "16. Tetracyclines",
+    "DRUG2": "Penicillins",
+    "REACTION": "Bactericidal action of penicillins and cephalosporins may"
+  },
+  {
+    "DRUG1": "Chloramphenicol",
+    "DRUG2": "Cephalosporins",
+    "REACTION": "be antagonized by the bacteriostatic antibiotics ; Avoid\nconcurrent use ."
+  },
+  {
+    "DRUG1": "Macrolide antibiotic",
+    "DRUG2": "Cephalosporins",
+    "REACTION": "be antagonized by the bacteriostatic antibiotics ; Avoid\nconcurrent use ."
+  },
+  {
+    "DRUG1": "Clindamycin",
+    "DRUG2": "Cephalosporins",
+    "REACTION": "be antagonized by the bacteriostatic antibiotics ; Avoid\nconcurrent use ."
+  },
+  {
+    "DRUG1": "17. Clindamycin",
+    "DRUG2": "Erythromycin",
+    "REACTION": "Mutual antagonism of antibacterial action due to proximal\nbinding sites on bacterial ribosomes ; Avoid concurrent use"
+  },
+  {
+    "DRUG1": "17. Clindamycin",
+    "DRUG2": "Clarithromycin",
+    "REACTION": "Mutual antagonism of antibacterial action due to proximal\nbinding sites on bacterial ribosomes ; Avoid concurrent use"
+  },
+  {
+    "DRUG1": "17. Clindamycin",
+    "DRUG2": "Azithromycin",
+    "REACTION": "Mutual antagonism of antibacterial action due to proximal\nbinding sites on bacterial ribosomes ; Avoid concurrent use"
+  },
+  {
+    "DRUG1": "17. Clindamycin",
+    "DRUG2": "Chloramphenicol",
+    "REACTION": "Mutual antagonism of antibacterial action due to proximal\nbinding sites on bacterial ribosomes ; Avoid concurrent use"
+  },
+  { "DRUG1": "18. Phenobarbitone", "DRUG2": "Metronidazole", "REACTION": "" },
+  { "DRUG1": "18. Phenobarbitone", "DRUG2": "Doxycycline", "REACTION": "" },
+  { "DRUG1": "Phenytoin", "DRUG2": "Metronidazole", "REACTION": "" },
+  { "DRUG1": "Phenytoin", "DRUG2": "Doxycycline", "REACTION": "" },
+  {
+    "DRUG1": "Carbamazepine",
+    "DRUG2": "Chloramphenicol",
+    "REACTION": "Induction of metabolism ? loss of efficacy of object drug"
+  },
+  {
+    "DRUG1": "Rifampin",
+    "DRUG2": "Protease inhibitors",
+    "REACTION": "Avoid concurrent use or increase dose of object drug with\nmonitoring ."
+  },
+  {
+    "DRUG1": "Rifampin",
+    "DRUG2": "Warfarin",
+    "REACTION": "Avoid concurrent use or increase dose of object drug with\nmonitoring ."
+  },
+  {
+    "DRUG1": "Rifampin",
+    "DRUG2": "Corticosteroids",
+    "REACTION": "Avoid concurrent use or increase dose of object drug with\nmonitoring ."
+  },
+  {
+    "DRUG1": "Rifampin",
+    "DRUG2": "Oral contraceptives",
+    "REACTION": "Avoid concurrent use or increase dose of object drug with\nmonitoring ."
+  },
+  {
+    "DRUG1": "Rifampin",
+    "DRUG2": "Sulfonylureas",
+    "REACTION": "Avoid concurrent use or increase dose of object drug with\nmonitoring ."
+  },
+  {
+    "DRUG1": "Rifampin",
+    "DRUG2": "Antidepressants",
+    "REACTION": "Avoid concurrent use or increase dose of object drug with\nmonitoring ."
+  },
+  {
+    "DRUG1": "19. Chloramphenicol",
+    "DRUG2": "Warfarin",
+    "REACTION": "Inhibition of metabolism ? toxicity of the object drug .\nAvoid concurrent use or monitor and reduce dose of obje\ndrug ."
+  },
+  {
+    "DRUG1": "19. Chloramphenicol",
+    "DRUG2": "Phenytoin",
+    "REACTION": "Inhibition of metabolism ? toxicity of the object drug .\nAvoid concurrent use or monitor and reduce dose of obje\ndrug ."
+  },
+  {
+    "DRUG1": "19. Chloramphenicol",
+    "DRUG2": "Sulfonylureas",
+    "REACTION": "Inhibition of metabolism ? toxicity of the object drug .\nAvoid concurrent use or monitor and reduce dose of obje\ndrug ."
+  },
+  {
+    "DRUG1": "20. NSAIDs",
+    "DRUG2": "Ciprofloxacin and",
+    "REACTION": "Enhanced CNS toxicity , seizures ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "20. NSAIDs",
+    "DRUG2": "fluoroquinolones",
+    "REACTION": "Enhanced CNS toxicity , seizures ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "21. Aspirin and",
+    "DRUG2": "Sulfonylureas",
+    "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
+  },
+  {
+    "DRUG1": "21. Aspirin and",
+    "DRUG2": "Phenytoin",
+    "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
+  },
+  {
+    "DRUG1": "21. Aspirin and",
+    "DRUG2": "Valproate",
+    "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
+  },
+  {
+    "DRUG1": "21. Aspirin and",
+    "DRUG2": "Methotrexate",
+    "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
+  },
+  {
+    "DRUG1": "other NSAIDs",
+    "DRUG2": "Sulfonylureas",
+    "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
+  },
+  {
+    "DRUG1": "other NSAIDs",
+    "DRUG2": "Phenytoin",
+    "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
+  },
+  {
+    "DRUG1": "other NSAIDs",
+    "DRUG2": "Valproate",
+    "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
+  },
+  {
+    "DRUG1": "other NSAIDs",
+    "DRUG2": "Methotrexate",
+    "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Warfarin",
+    "REACTION": "Enhanced risk of bleeding due to antiplatelet action and\nmucosal damage ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Heparin",
+    "REACTION": "Enhanced risk of bleeding due to antiplatelet action and\nmucosal damage ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "ACE",
+    "DRUG2": "inhibitors",
+    "REACTION": "Reduced antihypertensive effect due to inhibition of rena\nsynthesis ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "ACE",
+    "DRUG2": "blockers",
+    "REACTION": "Reduced antihypertensive effect due to inhibition of rena\nsynthesis ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "ACE",
+    "DRUG2": "Thiazide diuretics",
+    "REACTION": "Reduced antihypertensive effect due to inhibition of rena\nsynthesis ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "ACE",
+    "DRUG2": "PG",
+    "REACTION": "Reduced antihypertensive effect due to inhibition of rena\nsynthesis ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "B",
+    "DRUG2": "inhibitors",
+    "REACTION": "Reduced antihypertensive effect due to inhibition of rena\nsynthesis ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "B",
+    "DRUG2": "blockers",
+    "REACTION": "Reduced antihypertensive effect due to inhibition of rena\nsynthesis ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "B",
+    "DRUG2": "Thiazide diuretics",
+    "REACTION": "Reduced antihypertensive effect due to inhibition of rena\nsynthesis ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "B",
+    "DRUG2": "PG",
+    "REACTION": "Reduced antihypertensive effect due to inhibition of rena\nsynthesis ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Furosemide",
+    "REACTION": "Reduced diuretic action due to PG synthesis inhibition in\n; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "kidney",
+    "REACTION": "Reduced diuretic action due to PG synthesis inhibition in\n; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "22. Aspirin",
+    "DRUG2": "Alcohol",
+    "REACTION": "Increased risk of gastric mucosal damage and gastric bleeding ; Concurrent use contraindicated\nReduced K conserving action due to decreased tubular\nsecretion of canrenone ( active metabolite of spironolactone ) :\nAvoid concurrent use ."
+  },
+  {
+    "DRUG1": "22. Aspirin",
+    "DRUG2": "Corticosteroids",
+    "REACTION": "Increased risk of gastric mucosal damage and gastric bleeding ; Concurrent use contraindicated\nReduced K conserving action due to decreased tubular\nsecretion of canrenone ( active metabolite of spironolactone ) :\nAvoid concurrent use ."
+  },
+  {
+    "DRUG1": "22. Aspirin",
+    "DRUG2": "Spironolactone",
+    "REACTION": "Increased risk of gastric mucosal damage and gastric bleeding ; Concurrent use contraindicated\nReduced K conserving action due to decreased tubular\nsecretion of canrenone ( active metabolite of spironolactone ) :\nAvoid concurrent use ."
+  },
+  {
+    "DRUG1": "23. Chronic alcoholism",
+    "DRUG2": "Paracetamol",
+    "REACTION": "Hepatotoxic dose of paracetamol is reduced : doses\n< 3 g / day are safe ."
+  },
+  { "DRUG1": "24. Chlorpromazi", "DRUG2": "Morphine", "REACTION": "" },
+  {
+    "DRUG1": "Imipramine and",
+    "DRUG2": "Pethidine",
+    "REACTION": "Enhanced CNS and respiratory depression : Avoid\nconcurrent use ."
+  },
+  {
+    "DRUG1": "Imipramine and",
+    "DRUG2": "Codeine",
+    "REACTION": "Enhanced CNS and respiratory depression : Avoid\nconcurrent use ."
+  },
+  {
+    "DRUG1": "other TCAS",
+    "DRUG2": "Pethidine",
+    "REACTION": "Enhanced CNS and respiratory depression : Avoid\nconcurrent use ."
+  },
+  {
+    "DRUG1": "other TCAS",
+    "DRUG2": "Codeine",
+    "REACTION": "Enhanced CNS and respiratory depression : Avoid\nconcurrent use ."
+  },
+  {
+    "DRUG1": "25. Chlorpromazing Haloperidol Metoclopramide",
+    "DRUG2": "Levodopa - carbidopa",
+    "REACTION": "Antagonism of antiparkinsonian effect . Concurrent\ncontraindicated ."
+  },
+  {
+    "DRUG1": "26. Levodopa - carbidop",
+    "DRUG2": "ACE inhibitors",
+    "REACTION": "Excessive postural hypotension : Reduce dose of\nantihypertensives ."
+  },
+  {
+    "DRUG1": "26. Levodopa - carbidop",
+    "DRUG2": "Vasodilators",
+    "REACTION": "Excessive postural hypotension : Reduce dose of\nantihypertensives ."
+  },
+  {
+    "DRUG1": "26. Levodopa - carbidop",
+    "DRUG2": "Prazosin",
+    "REACTION": "Excessive postural hypotension : Reduce dose of\nantihypertensives ."
+  },
+  {
+    "DRUG1": "27. TCAS",
+    "DRUG2": "Adrenaline ( added to",
+    "REACTION": "Potentiation due to neuronal uptake inhibition ? rise\nBP ; Use plain local anaesthetic solution ."
+  },
+  {
+    "DRUG1": "27. TCAS",
+    "DRUG2": "local anaesthetic )",
+    "REACTION": "Potentiation due to neuronal uptake inhibition ? rise\nBP ; Use plain local anaesthetic solution ."
+  },
+  {
+    "DRUG1": "28. Promethazine",
+    "DRUG2": "Adrenaline ( added to",
+    "REACTION": "Potentiation due to neuronal uptake inhibition ? rise\nBP ; Use plain local anaesthetic solution ."
+  },
+  {
+    "DRUG1": "28. Promethazine",
+    "DRUG2": "local anaesthetic )",
+    "REACTION": "Potentiation due to neuronal uptake inhibition ? rise\nBP ; Use plain local anaesthetic solution ."
+  },
+  {
+    "DRUG1": "Alcohol",
+    "DRUG2": "Diazepam and other",
+    "REACTION": "Additive CNS and respiratory depression , motor\nimpairment ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "Alcohol",
+    "DRUG2": "benzodiazepines",
+    "REACTION": "Additive CNS and respiratory depression , motor\nimpairment ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "Opioids",
+    "DRUG2": "Diazepam and other",
+    "REACTION": "Additive CNS and respiratory depression , motor\nimpairment ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "Opioids",
+    "DRUG2": "benzodiazepines",
+    "REACTION": "Additive CNS and respiratory depression , motor\nimpairment ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "Antipsychotics",
+    "DRUG2": "Diazepam and other",
+    "REACTION": "Additive CNS and respiratory depression , motor\nimpairment ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "Antipsychotics",
+    "DRUG2": "benzodiazepines",
+    "REACTION": "Additive CNS and respiratory depression , motor\nimpairment ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "29. Cimetidine",
+    "DRUG2": "Diazepam and",
+    "REACTION": "Inhibition of metabolism ? exaggerated CNS depression :"
+  },
+  {
+    "DRUG1": "Isoniazid",
+    "DRUG2": "other benzodiazepines",
+    "REACTION": "Avoid concurrent use or reduce benzodiazepine dose"
+  },
+  {
+    "DRUG1": "30. Sildenafil",
+    "DRUG2": "Nitrates",
+    "REACTION": "Marked potentiation ? precipitous fall in SP :\nConcurrent use contraindicated ."
+  },
+  {
+    "DRUG1": "Tadalafil",
+    "DRUG2": "Nitrates",
+    "REACTION": "Marked potentiation ? precipitous fall in SP :\nConcurrent use contraindicated ."
+  },
+  {
+    "DRUG1": "31. Propranolol",
+    "DRUG2": "Adrenaline ( injected with",
+    "REACTION": "Rise in BP due to blockade of vasodilator action of adrenaline\nthat enters systemic circulation , Avoid adrenaline containing local anaesthetic ."
+  },
+  {
+    "DRUG1": "31. Propranolol",
+    "DRUG2": "local anaesthetic )",
+    "REACTION": "Rise in BP due to blockade of vasodilator action of adrenaline\nthat enters systemic circulation , Avoid adrenaline containing local anaesthetic ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Lidocaine",
+    "REACTION": "Reduced hepatic clearance of lidocaine , Ceiling amount used in local anaesthesia is reduced ."
+  },
+  {
+    "DRUG1": "32. Lidocaine",
+    "DRUG2": "B - blockers",
+    "REACTION": "Enhanced bradycardia and hypotension , Avoid concurrent\nuse ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "Quinidine and other",
+    "REACTION": "Exaggerated cardiac depression , precipitation of arrhythmias ; Avoid concurrent use ."
+  },
+  {
+    "DRUG1": "",
+    "DRUG2": "antiarrhythmic drugs",
+    "REACTION": "Exaggerated cardiac depression , precipitation of arrhythmias ; Avoid concurrent use ."
+  }
+]
