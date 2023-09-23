@@ -1,0 +1,12 @@
+/* BigDiv.css */
+.bigImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bigImage1,
+  .bigImage2 {
+    max-width: 50%;
+  }
+  

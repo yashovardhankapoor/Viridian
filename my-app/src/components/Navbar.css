@@ -1,0 +1,44 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #337CCF;
+  color: white;
+  padding: 25px 100px;
+}
+
+.logo img {
+  max-width: 100px; /* Adjust the width as needed */
+}
+
+.links button.nav-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 50px; /* Adjust the spacing between buttons */
+  transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+.links button.nav-button:hover {
+  color: #337CCF;
+  background-color: white;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .links {
+    margin-top: 20px; /* Adjust the spacing between logo and buttons */
+  }
+
+  .links button.nav-button {
+    margin: 10px 0;
+  }
+}
