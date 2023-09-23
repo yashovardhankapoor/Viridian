@@ -37,45 +37,53 @@ function App() {
 
     setChartData(data);
   }
-
   const handleCalculate = (age, totalInvestment) => {
-    const ageRange = Math.min(60, age) - 50;
-    const fixedIncomeMin = ageRange * 5 + 35;
-    const fixedIncomeMax = ageRange * 5 + 45;
+    if (age < 50 || age > 75) {
+      alert("Please enter an age between 50 and 75.");
+      return;
+    }
+  
+    setTotalInvestment(totalInvestment);
+  
+    const ageRange = age - 50;
+    const fixedIncomeMin = ageRange * 2 + 30;
+    const fixedIncomeMax = ageRange * 2 + 40;
+    
     const equityMin = 100 - fixedIncomeMax;
     const equityMax = 100 - fixedIncomeMin;
-
+  
     const fixedIncomeAllocation = {
-      "Government Bonds": [20 + ageRange * 2, 30 + ageRange * 2],
-      "Corporate Bonds": [10 + ageRange * 2, 20 + ageRange * 2],
-      "Fixed Deposits": [5 + ageRange, 10 + ageRange]
+      "Government Bonds": [15 + ageRange, 20 + ageRange],
+      "Corporate Bonds": [10 + ageRange, 15 + ageRange],
+      "Municipal Bonds": [5 + ageRange, 10 + ageRange]
     };
-
+  
     const equityAllocation = {
-      "Large-Cap Stocks": [20 + ageRange * 2, 30 + ageRange * 2],
+      "Large-Cap Stocks": [30 + ageRange, 40 + ageRange],
       "Mid-Cap Stocks": [10 + ageRange, 15 + ageRange],
       "Small-Cap Stocks": [5 + ageRange, 10 + ageRange],
-      "Index Funds or ETFs": [5 + ageRange, 10 + ageRange]
+      "International Stocks": [5 + ageRange, 10 + ageRange]
     };
-
+  
     const realEstateAllocation = {
-      "Real Estate Investment Trusts (REITs) or Real Estate Mutual Funds (REMFs)": [10 + ageRange * 2, 20 + ageRange * 2]
+      "Real Estate Investment Trusts (REITs)": [10 + ageRange, 15 + ageRange],
+      "Physical Real Estate Holdings": [0, 5 + ageRange]
     };
-
+  
     const allocationData = {
       "Fixed-Income Investments": fixedIncomeAllocation,
       "Equity Investments": equityAllocation,
       "Real Estate": realEstateAllocation
     };
-
-    setTotalInvestment(totalInvestment); // Update totalInvestment
-
+  
     setFormData({
       age,
       totalInvestment,
       allocationData
     });
   }
+  
+  
 
   return (
     <div className="App">
