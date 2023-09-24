@@ -1,0 +1,12 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container label,
+  .form-container input {
+    margin: 5px;
+  }
+
+  

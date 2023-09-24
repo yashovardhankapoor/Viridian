@@ -1,39 +1,46 @@
+/* App.css */
+
 .App {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center; /* Center align the entire content within the App */
+}
+
+.form-container {
+  margin-bottom: 20px;
   text-align: center;
-  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chart-container {
+  margin-top: 20px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.chart {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* App.css */
+
+.graph-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; /* Center align the graphs within the container */
 }
 
-.App-link {
-  color: #5cd2e6;
+.graph,
+.pie-chart {
+  width: 45%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pie-chart {
+  margin-top: 20px;
+  margin-left: auto; /* Center align the pie chart within its container */
+  margin-right: auto; /* Center align the pie chart within its container */
+}
+
+/* Adjust the size of the pie chart */
+canvas {
+  max-width: 100%;
+  height: auto;
 }

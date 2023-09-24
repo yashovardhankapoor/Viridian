@@ -1,0 +1,53 @@
+/* PieChart.css */
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pie-charts {
+  display: flex;
+  justify-content: center;
+}
+
+.chart {
+  margin: 10px;
+  max-width: 300px; /* Adjust the maximum width as needed */
+}
+
+/* Maintain aspect ratio */
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Apply styles to the last pie chart */
+.chart:last-child {
+  margin-right: 0; /* Remove margin from the last chart */
+}
+
+.pie-chart {
+  position: relative;
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  border-radius: 50%;
+  background: #f1f1f1;
+  transform: rotate(-90deg);
+}
+
+.slice {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  clip: rect(0, 100%, 100%, 50%);
+}
+
+.slice-fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, 50%, 100%, 0);
+  background-color: #007bff;
+  border-radius: 50%;
+}
