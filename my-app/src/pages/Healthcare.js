@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Healthcare.css";
+import "./css/Healthcare.css";
 
 import jsonData from "./json/New_Sample.json";
 import anotherJsonData from "./json/sample2.json"; // Import the new JSON file

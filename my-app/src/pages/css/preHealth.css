@@ -1,0 +1,49 @@
+/* PreHealth.css */
+.prehealth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .page-divider {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    cursor: pointer;
+    transition: width 0.3s ease;
+  }
+  
+  .page-divider:hover {
+    width: 800px;
+  }
+  
+  .left-section,
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .separator {
+    width: 100px; /* Adjust the width for separation */
+    flex: none; /* Make it non-flexible */
+  }
+  
+  .section-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  

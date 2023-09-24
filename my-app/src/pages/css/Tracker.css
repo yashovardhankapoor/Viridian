@@ -1,0 +1,44 @@
+.widget-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
+  background-color: #f0f0f0; /* Change the background color to your preference */
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+/* Add this CSS to your existing stylesheet */
+.navbar {
+  background-color: black; /* Transparent background */
+  position: fixed; /* Fixed position at the top */
+  top: 0; /* Stick to the top */
+  left: 0; /* Stick to the left */
+  width: 100%; /* Full width */
+  height: 40px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* Add padding to the navbar */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  z-index: 1; /* Ensure it's above the iframe content */
+}
+
+.brand {
+  color: white; /* Text color */
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add a text shadow for better visibility */
+}
+
+.widget-container {
+  margin-top: 40px; /* Ensure the widget content is below the navbar */
+  background-color: black;
+}
+body { /* Set the background color of the entire page to black */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
