@@ -7,6 +7,7 @@ import anotherJsonData from "./json/sample2.json"; // Import the new JSON file
 function Healthcare() {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [showAll, setShowAll] = useState(false);
 
   const handleSearch = () => {
     if (!searchTerm) {
@@ -42,7 +43,17 @@ function Healthcare() {
       };
     });
 
-    setData(displayedData);
+    // Sort the data by "MRP" in ascending order
+    displayedData.sort((a, b) => a.MRP - b.MRP);
+
+    // Show only the top 4 results if showAll is false
+    const limitedData = showAll ? displayedData : displayedData.slice(0, 4);
+
+    setData(limitedData);
+  };
+
+  const toggleShowAll = () => {
+    setShowAll(!showAll);
   };
 
   return (
@@ -70,9 +81,15 @@ function Healthcare() {
             <tbody>
               {data.map((row, index) => (
                 <tr key={index}>
-                  {Object.values(row).map((value, index) => (
-                    <td key={index}>{value}</td>
-                  ))}
+                  <td>{row["Medicine Name"]}</td>
+                  <td>{row.Prescription}</td>
+                  <td>{row["Type of Sell"]}</td>
+                  <td>{row.Manufacturer}</td>
+                  <td>{row.Salt}</td>
+                  <td>{row.MRP}</td>
+                  <td>{row.Uses}</td>
+                  <td>{row["Side Effects"]}</td>
+                  <td>{row["Dont go together"]}</td>
                 </tr>
               ))}
             </tbody>
@@ -80,9 +97,16 @@ function Healthcare() {
         </div>
       )}
 
+      {(showAll || data.length > 4) && (
+        <div className="show-more">
+          <button onClick={toggleShowAll}>
+            {showAll ? "Show Less" : "Show More"}
+          </button>
+        </div>
+      )}
+
       <br />
       <br />
-      {}
     </div>
   );
 }

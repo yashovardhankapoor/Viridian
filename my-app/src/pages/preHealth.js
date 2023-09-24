@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom"; // Import useNavigate
 import "./css/preHealth.css";
 import healthfinderImage from "./images/healthfinder.png";
 import infoimg from "./images/info.png";
+import Navbar from "../components/Navbar";
 
 function PreHealth() {
   const navigate = useNavigate(); // Initialize the navigate function
@@ -21,6 +22,7 @@ function PreHealth() {
 
   return (
     <div className="prehealth-container">
+       <Navbar />
       <div className="page-divider">
         <div className="left-section" onClick={handleTrackerClick}>
           <img src={infoimg} alt="Image 1" className="section-image" />

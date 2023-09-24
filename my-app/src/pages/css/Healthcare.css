@@ -233,3 +233,22 @@
     box-sizing: border-box;
   }
 }
+
+/* Add this CSS to your Healthcare.css file or create a new CSS file for button styles */
+
+/* Style the "Show More" button */
+.show-more button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Padding around the button text */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  font-size: 16px; /* Adjust the font size */
+  border-radius: 4px; /* Add rounded corners */
+  transition: background-color 0.3s ease-in-out; /* Smooth color transition on hover */
+}
+
+/* Style the "Show More" button on hover */
+.show-more button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
