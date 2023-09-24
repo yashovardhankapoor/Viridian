@@ -5,6 +5,7 @@ import Chart from './components/Chart';
 import InputForm from './components/InputForm';
 import './App.css';
 
+
 function App() {
   const [formData, setFormData] = useState(null);
   const [chartData, setChartData] = useState(null);
@@ -81,8 +82,7 @@ function App() {
       totalInvestment,
       allocationData
     });
-  }
-  
+  }  
   
 
   return (

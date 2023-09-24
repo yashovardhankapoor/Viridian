@@ -3,7 +3,7 @@ import { Pie } from 'react-chartjs-2';
 import './PieChart.css';
 
 function PieChart({ formData }) {
-  const { allocationData } = formData;
+  const { age, allocationData } = formData;
 
   // Create separate arrays for each category
   const fixedIncomeLabels = [];
@@ -13,19 +13,31 @@ function PieChart({ formData }) {
   const realEstateLabels = [];
   const realEstateData = [];
 
+  const getAllocationPercentages = (age) => {
+    if (age >= 50 && age <= 60) {
+      return [35, 45, 20];
+    } else if (age >= 61 && age <= 70) {
+      return [40, 40, 20];
+    } else if (age >= 71 && age <= 75) {
+      return [50, 30, 20];
+    } else {
+      return [0, 0, 0];
+    }
+  };
+
   const totalChartData = {
     labels: ['Fixed Income Investments', 'Equity Investments', 'Real Estate'],
     datasets: [
       {
-        data: [35, 45, 20],
+        data: getAllocationPercentages(age),
         backgroundColor: [
           'rgba(255, 99, 132, 0.6)',
           'rgba(54, 162, 235, 0.6)',
-          'rgba(255, 206, 86, 0.6)'
+          'rgba(255, 206, 86, 0.6)',
         ],
-        borderWidth: 1
-      }
-    ]
+        borderWidth: 1,
+      },
+    ],
   };
 
   // Populate the arrays based on the category
