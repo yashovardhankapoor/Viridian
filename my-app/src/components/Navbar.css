@@ -12,19 +12,21 @@
   max-width: 100px; /* Adjust the width as needed */
 }
 
-.links button.nav-button {
-  background-color: transparent;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
-  margin-left: 50px; /* Adjust the spacing between buttons */
-  transition: all 0.3s ease; /* Add a smooth transition effect */
+.links {
+  display: flex; /* Make the links container a flex container */
+  align-items: center; /* Align links vertically */
 }
 
-.links button.nav-button:hover {
+.links a.nav-button {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin-left: 20px; /* Adjust the spacing between links */
+  transition: all 0.3s ease;
+}
+
+.links a.nav-button:hover {
   color: #337ccf;
-  background-color: white;
 }
 
 /* Media query for responsiveness */
@@ -32,51 +34,15 @@
   .navbar {
     flex-direction: column;
     text-align: center;
+    padding: 20px 0; /* Increase the padding to adjust the height */
   }
 
   .links {
-    margin-top: 20px; /* Adjust the spacing between logo and buttons */
+    margin-top: 20px; /* Adjust the spacing between logo and links */
   }
 
-  .links button.nav-button {
+  .links a.nav-button {
     margin: 10px 0;
+    margin-left: 0; /* Reset the left margin for mobile view */
   }
-}
-
-/* CustomNavbar.css */
-
-/* Increase the height of the Navbar */
-.navbar {
-  background-color: #ffffff;
-  padding: 20px 0; /* Increase the padding to adjust the height */
-  border-bottom: 1px solid #e0e0e0;
-}
-
-/* Style the logo */
-.navbar-brand img {
-  max-height: 50px;
-  margin-right: 15px;
-}
-
-/* Style the navigation links */
-.navbar-nav .nav-link {
-  color: #333;
-  font-weight: 500;
-  margin-right: 15px;
-  line-height: 2; /* Increase the line height for more vertical space */
-}
-
-/* Style the active link */
-.navbar-nav .nav-link.active {
-  color: #007bff;
-}
-
-/* Style the collapsed toggle button */
-.navbar-toggler-icon {
-  background-color: #333;
-}
-
-/* Style the navbar when expanded */
-.navbar-expand-lg .navbar-collapse {
-  justify-content: flex-end;
 }

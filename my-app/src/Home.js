@@ -1,9 +1,9 @@
-// Home.js
 import React from "react";
 import Navbar from "./components/Navbar";
 import BigDiv from "./components/bigDiv";
 import Features from "./components/features";
 import "./Home.css"; // Import the CSS file for homepage styles
+import { Carousel } from "./Carousel/Carousel";
 
 function Home() {
   return (
@@ -12,7 +12,10 @@ function Home() {
       <BigDiv />
       <hr />
       <Features />
-      {/* Add any other content specific to your homepage */}
+      <hr />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <Carousel />
+      </div>
     </div>
   );
 }

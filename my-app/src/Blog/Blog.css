@@ -1,0 +1,30 @@
+/* Blog.css */
+.outermost {
+    text-align: center; /* Center-align the content inside the outermost div */
+    margin: 0 auto; /* Set margins to center the content horizontally */
+    max-width: 800px; /* Adjust the max-width as needed */
+    padding: 20px; /* Add padding for spacing around the content */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;  
+  }
+  
+  h1 {
+    text-align: center; /* Center-align the main title */
+    margin-bottom: 25px;
+  }
+  
+  p {
+    text-align: center; /* Center-align paragraphs */
+    font-size: 96;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+  }
+  
+  ul {
+    text-align: left; /* Left-align the content inside unordered lists */
+    font-size: 96;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+  }
+  

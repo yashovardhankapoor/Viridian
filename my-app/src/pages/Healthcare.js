@@ -39,17 +39,14 @@ function Healthcare() {
         MRP: item.MRP,
         Uses: item.Uses,
         "Side Effects": item["Side Effects"] || "N/A",
-        "Dont go together": dontGoTogether,
+        // "Dont go together": dontGoTogether,
       };
     });
 
     // Sort the data by "MRP" in ascending order
     displayedData.sort((a, b) => a.MRP - b.MRP);
 
-    // Show only the top 4 results if showAll is false
-    const limitedData = showAll ? displayedData : displayedData.slice(0, 4);
-
-    setData(limitedData);
+    setData(displayedData);
   };
 
   const toggleShowAll = () => {
@@ -66,6 +63,11 @@ function Healthcare() {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button onClick={handleSearch}>Search</button>
+        {data.length > 4 && (
+          <button onClick={toggleShowAll}>
+            {showAll ? "Show Less" : "Show More"}
+          </button>
+        )}
       </div>
 
       {data.length > 0 && (
@@ -79,7 +81,7 @@ function Healthcare() {
               </tr>
             </thead>
             <tbody>
-              {data.map((row, index) => (
+              {data.slice(0, showAll ? data.length : 4).map((row, index) => (
                 <tr key={index}>
                   <td>{row["Medicine Name"]}</td>
                   <td>{row.Prescription}</td>
@@ -94,14 +96,6 @@ function Healthcare() {
               ))}
             </tbody>
           </table>
-        </div>
-      )}
-
-      {(showAll || data.length > 4) && (
-        <div className="show-more">
-          <button onClick={toggleShowAll}>
-            {showAll ? "Show Less" : "Show More"}
-          </button>
         </div>
       )}
 

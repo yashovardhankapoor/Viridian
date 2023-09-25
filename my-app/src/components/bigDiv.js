@@ -1,7 +1,7 @@
 import React from "react";
 import elderlyCare from "./images/elderly-care.jpg";
 import "./bigDiv.css";
-import description from "./images/description.png";
+import description from "./images/desc.png";
 
 const bigDiv = () => {
   return (

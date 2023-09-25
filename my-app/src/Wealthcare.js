@@ -94,7 +94,7 @@ function Wealthcare() {
         />
         {chartData && <Chart data={chartData} />}
       </div>
-      <div>
+      <div className="centered-container"> {/* Add this container */}
         <h1>Pie Chart</h1>
         <InvestmentForm onCalculate={handleCalculate} />
         {formData && (

@@ -262,22 +262,22 @@
     "REACTION": "Enhanced vestibular toxicity ; Avoid concurrent use .\nAdditive ototoxicity and nephrotoxicity ; Avoid concurrent\nuse ."
   },
   {
-    "DRUG1": "14. Furosemide",
+    "DRUG1": "Furosemide",
     "DRUG2": "Minocycline",
     "REACTION": "Enhanced vestibular toxicity ; Avoid concurrent use .\nAdditive ototoxicity and nephrotoxicity ; Avoid concurrent\nuse ."
   },
   {
-    "DRUG1": "14. Furosemide",
+    "DRUG1": "Furosemide",
     "DRUG2": "Aminoglycoside",
     "REACTION": "Enhanced vestibular toxicity ; Avoid concurrent use .\nAdditive ototoxicity and nephrotoxicity ; Avoid concurrent\nuse ."
   },
   {
-    "DRUG1": "14. Furosemide",
+    "DRUG1": "Furosemide",
     "DRUG2": "antibiotics",
     "REACTION": "Enhanced vestibular toxicity ; Avoid concurrent use .\nAdditive ototoxicity and nephrotoxicity ; Avoid concurrent\nuse ."
   },
   {
-    "DRUG1": "15. Diuretics",
+    "DRUG1": "Diuretics",
     "DRUG2": "Tetracycline",
     "REACTION": "Antianabolic effect of tetracycline increases urea production\nwhich is retained by the diuretic ; Avoid concurrent use ."
   },
@@ -292,7 +292,7 @@
     "REACTION": "Hypokalaemia caused by diuretic increases digoxin toxicity\nGive K + sparing diurat supplernents ."
   },
   {
-    "DRUG1": "16. Tetracyclines",
+    "DRUG1": "Tetracyclines",
     "DRUG2": "Penicillins",
     "REACTION": "Bactericidal action of penicillins and cephalosporins may"
   },
@@ -312,27 +312,27 @@
     "REACTION": "be antagonized by the bacteriostatic antibiotics ; Avoid\nconcurrent use ."
   },
   {
-    "DRUG1": "17. Clindamycin",
+    "DRUG1": "Clindamycin",
     "DRUG2": "Erythromycin",
     "REACTION": "Mutual antagonism of antibacterial action due to proximal\nbinding sites on bacterial ribosomes ; Avoid concurrent use"
   },
   {
-    "DRUG1": "17. Clindamycin",
+    "DRUG1": "Clindamycin",
     "DRUG2": "Clarithromycin",
     "REACTION": "Mutual antagonism of antibacterial action due to proximal\nbinding sites on bacterial ribosomes ; Avoid concurrent use"
   },
   {
-    "DRUG1": "17. Clindamycin",
+    "DRUG1": "Clindamycin",
     "DRUG2": "Azithromycin",
     "REACTION": "Mutual antagonism of antibacterial action due to proximal\nbinding sites on bacterial ribosomes ; Avoid concurrent use"
   },
   {
-    "DRUG1": "17. Clindamycin",
+    "DRUG1": "Clindamycin",
     "DRUG2": "Chloramphenicol",
     "REACTION": "Mutual antagonism of antibacterial action due to proximal\nbinding sites on bacterial ribosomes ; Avoid concurrent use"
   },
-  { "DRUG1": "18. Phenobarbitone", "DRUG2": "Metronidazole", "REACTION": "" },
-  { "DRUG1": "18. Phenobarbitone", "DRUG2": "Doxycycline", "REACTION": "" },
+  { "DRUG1": "Phenobarbitone", "DRUG2": "Metronidazole", "REACTION": "" },
+  { "DRUG1": "Phenobarbitone", "DRUG2": "Doxycycline", "REACTION": "" },
   { "DRUG1": "Phenytoin", "DRUG2": "Metronidazole", "REACTION": "" },
   { "DRUG1": "Phenytoin", "DRUG2": "Doxycycline", "REACTION": "" },
   {
@@ -371,32 +371,32 @@
     "REACTION": "Avoid concurrent use or increase dose of object drug with\nmonitoring ."
   },
   {
-    "DRUG1": "19. Chloramphenicol",
+    "DRUG1": " Chloramphenicol",
     "DRUG2": "Warfarin",
     "REACTION": "Inhibition of metabolism ? toxicity of the object drug .\nAvoid concurrent use or monitor and reduce dose of obje\ndrug ."
   },
   {
-    "DRUG1": "19. Chloramphenicol",
+    "DRUG1": " Chloramphenicol",
     "DRUG2": "Phenytoin",
     "REACTION": "Inhibition of metabolism ? toxicity of the object drug .\nAvoid concurrent use or monitor and reduce dose of obje\ndrug ."
   },
   {
-    "DRUG1": "19. Chloramphenicol",
+    "DRUG1": " Chloramphenicol",
     "DRUG2": "Sulfonylureas",
     "REACTION": "Inhibition of metabolism ? toxicity of the object drug .\nAvoid concurrent use or monitor and reduce dose of obje\ndrug ."
   },
   {
-    "DRUG1": "20. NSAIDs",
+    "DRUG1": " NSAIDs",
     "DRUG2": "Ciprofloxacin and",
     "REACTION": "Enhanced CNS toxicity , seizures ; Avoid concurrent use ."
   },
   {
-    "DRUG1": "20. NSAIDs",
+    "DRUG1": " NSAIDs",
     "DRUG2": "fluoroquinolones",
     "REACTION": "Enhanced CNS toxicity , seizures ; Avoid concurrent use ."
   },
   {
-    "DRUG1": "21. Aspirin and",
+    "DRUG1": " Aspirin",
     "DRUG2": "Sulfonylureas",
     "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
   },
@@ -406,32 +406,32 @@
     "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
   },
   {
-    "DRUG1": "21. Aspirin and",
+    "DRUG1": " Aspirin ",
     "DRUG2": "Valproate",
     "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
   },
   {
-    "DRUG1": "21. Aspirin and",
+    "DRUG1": " Aspirin ",
     "DRUG2": "Methotrexate",
     "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
   },
   {
-    "DRUG1": "other NSAIDs",
+    "DRUG1": " NSAIDs",
     "DRUG2": "Sulfonylureas",
     "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
   },
   {
-    "DRUG1": "other NSAIDs",
+    "DRUG1": " NSAIDs",
     "DRUG2": "Phenytoin",
     "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
   },
   {
-    "DRUG1": "other NSAIDs",
+    "DRUG1": " NSAIDs",
     "DRUG2": "Valproate",
     "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
   },
   {
-    "DRUG1": "other NSAIDs",
+    "DRUG1": " NSAIDs",
     "DRUG2": "Methotrexate",
     "REACTION": "Displacement and / or reduced elimination toxicity of\nobject drug ; Avoid concurrent use / substitute NSAID with\nparacetamol ."
   },
@@ -496,26 +496,26 @@
     "REACTION": "Reduced diuretic action due to PG synthesis inhibition in\n; Avoid concurrent use ."
   },
   {
-    "DRUG1": "22. Aspirin",
+    "DRUG1": " Aspirin",
     "DRUG2": "Alcohol",
     "REACTION": "Increased risk of gastric mucosal damage and gastric bleeding ; Concurrent use contraindicated\nReduced K conserving action due to decreased tubular\nsecretion of canrenone ( active metabolite of spironolactone ) :\nAvoid concurrent use ."
   },
   {
-    "DRUG1": "22. Aspirin",
+    "DRUG1": " Aspirin",
     "DRUG2": "Corticosteroids",
     "REACTION": "Increased risk of gastric mucosal damage and gastric bleeding ; Concurrent use contraindicated\nReduced K conserving action due to decreased tubular\nsecretion of canrenone ( active metabolite of spironolactone ) :\nAvoid concurrent use ."
   },
   {
-    "DRUG1": "22. Aspirin",
+    "DRUG1": " Aspirin",
     "DRUG2": "Spironolactone",
     "REACTION": "Increased risk of gastric mucosal damage and gastric bleeding ; Concurrent use contraindicated\nReduced K conserving action due to decreased tubular\nsecretion of canrenone ( active metabolite of spironolactone ) :\nAvoid concurrent use ."
   },
   {
-    "DRUG1": "23. Chronic alcoholism",
+    "DRUG1": " Chronic alcoholism",
     "DRUG2": "Paracetamol",
     "REACTION": "Hepatotoxic dose of paracetamol is reduced : doses\n< 3 g / day are safe ."
   },
-  { "DRUG1": "24. Chlorpromazi", "DRUG2": "Morphine", "REACTION": "" },
+  { "DRUG1": " Chlorpromazi", "DRUG2": "Morphine", "REACTION": "" },
   {
     "DRUG1": "Imipramine and",
     "DRUG2": "Pethidine",
@@ -527,32 +527,32 @@
     "REACTION": "Enhanced CNS and respiratory depression : Avoid\nconcurrent use ."
   },
   {
-    "DRUG1": "other TCAS",
+    "DRUG1": " TCAS",
     "DRUG2": "Pethidine",
     "REACTION": "Enhanced CNS and respiratory depression : Avoid\nconcurrent use ."
   },
   {
-    "DRUG1": "other TCAS",
+    "DRUG1": " TCAS",
     "DRUG2": "Codeine",
     "REACTION": "Enhanced CNS and respiratory depression : Avoid\nconcurrent use ."
   },
   {
-    "DRUG1": "25. Chlorpromazing Haloperidol Metoclopramide",
+    "DRUG1": " Chlorpromazing Haloperidol Metoclopramide",
     "DRUG2": "Levodopa - carbidopa",
     "REACTION": "Antagonism of antiparkinsonian effect . Concurrent\ncontraindicated ."
   },
   {
-    "DRUG1": "26. Levodopa - carbidop",
+    "DRUG1": " Levodopa - carbidop",
     "DRUG2": "ACE inhibitors",
     "REACTION": "Excessive postural hypotension : Reduce dose of\nantihypertensives ."
   },
   {
-    "DRUG1": "26. Levodopa - carbidop",
+    "DRUG1": " Levodopa - carbidop",
     "DRUG2": "Vasodilators",
     "REACTION": "Excessive postural hypotension : Reduce dose of\nantihypertensives ."
   },
   {
-    "DRUG1": "26. Levodopa - carbidop",
+    "DRUG1": " Levodopa - carbidop",
     "DRUG2": "Prazosin",
     "REACTION": "Excessive postural hypotension : Reduce dose of\nantihypertensives ."
   },
