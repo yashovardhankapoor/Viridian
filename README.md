@@ -1,5 +1,5 @@
 # Viridian
-Welcome to Viridian! This web application is designed to provide you with an immersive experience. You can access the live version of this app at viridian.netlify.app.
+Welcome to Viridian! This web application is designed to provide you with an immersive experience. You can access the live version of this app at [viridian.netlify.app](https://viridian.netlify.app/).
 
 ## Installation
 Before you start exploring the Viridian React App on your local machine, make sure you have Node.js and npm (Node Package Manager) installed. You can download them from the official Node.js website.
