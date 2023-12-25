@@ -49,7 +49,7 @@ const InputForm = ({ onSubmit, setTotalInvestment }) => {
             style={{ width: '100%', padding: '5px', borderRadius: '5px', border: '1px solid #ccc' }}
           />
         </div>
-        <button type="submit">Calculate</button>
+        <button type="submit">CALCULATE</button>
       </form>
     </div>
   );

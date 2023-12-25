@@ -12,7 +12,9 @@
 }
 
 .chart {
-  margin: 10px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   max-width: 300px; /* Adjust the maximum width as needed */
 }
 
@@ -50,4 +52,8 @@ canvas {
   clip: rect(0, 50%, 100%, 0);
   background-color: #007bff;
   border-radius: 50%;
+}
+
+.horizontalRule {
+  color: #007bff;
 }

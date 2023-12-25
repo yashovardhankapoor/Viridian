@@ -5,6 +5,7 @@ import Chart from "./components/Chart";
 import InputForm from "./components/InputForm";
 import "./Wealthcare.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function Wealthcare() {
   const [formData, setFormData] = useState(null);
@@ -84,25 +85,50 @@ function Wealthcare() {
   };
 
   return (
+    <div>
     <div className="Wealthcare">
       <Navbar />
+      <div className="ciInfo">
+        <div className="title">THE POWER OF COMPOUNDING</div>
+      <p className="paragraph">Compound interest is the interest earned on both the principal amount and the accumulated interest. This means that your investment grows exponentially over time, even if you don't add any more money to it.</p>
+      <p className="paragraph">The effect of compounding is most pronounced when you invest for the long term. For example, if you invest ₹10,000 at a 7% annual return, your investment will grow to ₹49,632 after 20 years. But if you wait 40 years, your investment will grow to ₹1,52,388.</p>
+      <p className="paragraph">This is because you are earning interest on your interest. In the first example, you earn interest on the original ₹10,000 investment. But in the second example, you also earn interest on the interest that you earned in the first 20 years.</p>
+      <p className="paragraph">Senior citizens often have a number of financial needs, including retirement income, healthcare costs, and long-term care. Investment can help senior citizens meet these needs and achieve their financial goals.</p>
+      <ul className="unorderedList">
+      Here are some of the benefits of investment for senior citizens:
+      <li className="listItem"><span className="blueText">Generate income:</span> Investments can generate income in the form of dividends, interest, or capital gains. This income can help supplement Social Security benefits and other retirement income sources.</li>
+      <li className="listItem"><span className="blueText">Grow wealth:</span> Over time, investments can grow in value, which can help senior citizens build wealth and achieve their financial goals.</li>
+      <li className="listItem"><span className="blueText">Hedging against inflation:</span> Inflation can erode the purchasing power of savings over time. Investments can help senior citizens hedge against inflation by providing them with the opportunity to grow their wealth at a faster rate than inflation.</li>
+      <li className="listItem"><span className="blueText">Leaving a legacy:</span> Investments can help senior citizens leave a legacy for their loved ones. By investing and growing their wealth, senior citizens can provide their loved ones with financial security after they are gone.</li>
+      </ul>
+
+
+      </div>
       <div style={{ padding: "20px" }}>
-        <h1>Financial Investment Bar Graph</h1>
+        <div className="title">Financial Investment Bar Graph</div>
         <InputForm
           onSubmit={calculateInvestment}
           setTotalInvestment={setTotalInvestment}
         />
         {chartData && <Chart data={chartData} />}
       </div>
-      <div>
-        <h1>Pie Chart</h1>
+      <hr />
+      <div className="distributionInfo">
+        Now that we have understood the importance of compounding, let us plan the distribution of your savings in different investment instruments. Diversifying an investment into equity, real estate, and fixed-income instruments is important to reduce risk and improve returns over the long term. Equity markets offer the highest potential returns, but they are also the most volatile. Real estate and fixed-income instruments offer lower returns, but they are also less volatile. By diversifying across all three asset classes, investors can reduce their overall exposure to any one particular asset class and create a portfolio that is aligned with their risk tolerance, investment goals, and time horizon.
+      </div>
+        <div className="title">Where should you invest</div>
+        <div className="investmentForm">
         <InvestmentForm onCalculate={handleCalculate} />
+        <div>
         {formData && (
           <>
             <PieChart formData={formData} />
           </>
         )}
-      </div>
+        </div>    
+        </div>
+    </div>
+    <Footer />
     </div>
   );
 }

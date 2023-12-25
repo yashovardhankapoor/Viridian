@@ -6,7 +6,9 @@
   
   .form-container label,
   .form-container input {
-    margin: 5px;
+    margin: 10px;
   }
-
   
+.investment-form {
+  padding: 0 auto;
+}

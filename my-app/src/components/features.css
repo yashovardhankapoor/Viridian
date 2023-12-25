@@ -2,7 +2,8 @@
 .outermost-container {
   padding: 50px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 400px;
+  margin-top: 100px;
 }
 
 .outer-container {
@@ -23,46 +24,27 @@
 
 /* Styles for different feature sections */
 .healthcare {
-  margin-left: 300px;
+  margin-left: 30px;
 }
 
 .wealthcare {
-  margin-right: 300px;
+  margin-right: 30px;
 }
 
 /* Styles for title */
 .title {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
   color: #337ccf;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Button styles */
-button {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 150px; /* Set the button size to 80x80 */
-  height: 40px; /* Set the button size to 80x80 */
-  border-radius: 10px; /* Add a border radius of 10px */
-  background-color: #337ccf;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif; /* Change the font-family */
-  transition: all 0.3s; /* Add transition for smooth hover effect */
-}
-
-/* Button hover styles */
-button:hover {
-  background-color: white;
-  color: #337ccf;
-  border: 2px solid #337ccf; /* Add a border and change its color on hover */
+  font-size: 40px;
 }
 
 .feature-description {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #337ccf;
-  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: grey;
+  font-size: 24px;
+  text-align: left;
 }
 
 /* Media Query for responsiveness */
@@ -79,7 +61,7 @@ button:hover {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  background-color: #007bff; /* Blue background color */
+  background-color: black; /* Blue background color */
   color: #fff; /* White text color */
   border: none;
   border-radius: 5px;
@@ -88,5 +70,7 @@ button:hover {
 }
 
 .button:hover {
-  background-color: #0056b3; /* Darker blue color on hover */
+  background-color: white; /* Darker blue color on hover */
+  color: black;
+  border: solid black 2px;
 }

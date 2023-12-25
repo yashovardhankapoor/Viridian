@@ -1,0 +1,71 @@
+/* ContactUsPage.css */
+
+.contact-us-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+  
+  .contact-us-container h1 {
+    color: #333;
+  }
+  
+  .contact-us-container p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .contact-form button {
+    background-color: #337ccf;
+    color: white;
+    padding: 10px;
+    width: 100px; /* Updated button size */
+    margin: 0 auto; /* Center align the button within the form */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-form button:hover {
+    background-color: white; /* Change color on hover */
+    color: #337ccf;
+    border: #337ccf 1px solid;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 600px) {
+    .contact-us-container {
+      padding: 10px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      margin-bottom: 5px;
+    }
+  }
+  

@@ -13,13 +13,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 600px;
+    width: 900px;
     cursor: pointer;
     transition: width 0.3s ease;
-  }
-  
-  .page-divider:hover {
-    width: 800px;
   }
   
   .left-section,
@@ -40,10 +36,19 @@
   }
   
   .text {
+    cursor: pointer;
+    transition: color 0.3s ease;
     font-size: 24px;
-    font-weight: bold;
     color: #333;
     margin: 0;
     padding: 0;
+  }
+
+  .text:hover {
+    color: #337ccf;
+  }
+
+  .rightOne{
+    margin-top: 10px;
   }
   

@@ -118,9 +118,10 @@ function PieChart({ formData }) {
   return (
     <div className="chart-container">
       <div className="chart">
-        <h2>Allocation</h2>
+        <h2>ALLOCATION</h2>
         <Pie data={totalChartData} />
       </div>
+      <hr width="1000px" className='horizontalRule'></hr>
       <div className="pie-charts">
         <div className="chart">
           <h2>Fixed-Income Investments</h2>

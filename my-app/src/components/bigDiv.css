@@ -1,12 +1,54 @@
+/* bigDiv.css */
+.outerDiv {
+  display: flex;
+  margin-top: 100px;
+}
+
+.bigDiv {
+  background-size: contain; /* Change to 'contain' to fit the width */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-height: 100vh; /* Limit the height to the viewport height */
+}
+
+.bigImage1 {
+  width: 100%;
+}
+
+.text-center {
+  color: #337ccf;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: left;
+  font-size: 36px;
+}
+
+.para1 {
+  margin-bottom: 0;
+}
+
+.para {
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+.heading {
+  font-size: 48px;
+}
+
+.oneLine {
+  font-size: 36px;
+  color: black;
+}
+
 /* BigDiv.css */
-.bigImg {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .bigImage1,
-  .bigImage2 {
-    max-width: 50%;
-  }
-  
+@keyframes textAnimation {
+  0% { opacity: 0; transform: translateY(-10px); }
+  50% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(10px); }
+}
+
+.animated-text {
+  animation: textAnimation 4s infinite; /* Adjust the duration and animation properties as needed */
+}

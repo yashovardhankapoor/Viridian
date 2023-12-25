@@ -12,7 +12,7 @@ function InvestmentForm({ onCalculate }) {
   return (
     <form onSubmit={handleSubmit} className="investment-form">
       <div className="form-group">
-        <label htmlFor="age">Age:</label>
+        <label htmlFor="age">AGE :</label>
         <input
           type="number"
           id="age"
@@ -20,7 +20,7 @@ function InvestmentForm({ onCalculate }) {
           onChange={(e) => setAge(e.target.value)}
         />
       </div>
-      <button type="submit">Calculate</button>
+      <button type="submit">CALCULATE</button>
     </form>
   );
 }
