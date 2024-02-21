@@ -1,4 +1,3 @@
-// Home.js
 import React from "react";
 import Navbar from "./components/Navbar";
 import BigDiv from "./components/bigDiv";
@@ -21,6 +20,8 @@ function Home() {
       <ContactUsPage />
       <Footer />
       {/* Add any other content specific to your homepage */}
+      <div style={{ display: "flex", justifyContent: "center" }}>
+      </div>
     </div>
   );
 }

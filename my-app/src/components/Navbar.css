@@ -20,11 +20,21 @@
   font-size: 16px;
   margin-left: 50px;
   transition: all 0.3s ease; 
+.links {
+  display: flex; /* Make the links container a flex container 
+  align-items: center; Align links vertically 
+}*/
+
+.links a.nav-button {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin-left: 20px; /* Adjust the spacing between links */
+  transition: all 0.3s ease;
 }
 
-.links button.nav-button:hover {
+.links a.nav-button:hover {
   color: #337ccf;
-  background-color: white;
 }
 
 
@@ -32,14 +42,17 @@
   .navbar {
     flex-direction: column;
     text-align: center;
+    padding: 20px 0; /* Increase the padding to adjust the height */
   }
 
   .links {
     margin-top: 20px; 
+    margin-top: 20px; /* Adjust the spacing between logo and links */
   }
 
-  .links button.nav-button {
+  .links a.nav-button {
     margin: 10px 0;
+    margin-left: 0; /* Reset the left margin for mobile view */
   }
 }
 

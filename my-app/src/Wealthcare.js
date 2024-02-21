@@ -118,6 +118,8 @@ function Wealthcare() {
       </div>
         <div className="title">Where should you invest</div>
         <div className="investmentForm">
+      <div className="centered-container"> {/* Add this container */}
+        <h1>Pie Chart</h1>
         <InvestmentForm onCalculate={handleCalculate} />
         <div>
         {formData && (
@@ -130,6 +132,7 @@ function Wealthcare() {
     </div>
     <Footer />
     </div>
+    /</div>
   );
 }
 

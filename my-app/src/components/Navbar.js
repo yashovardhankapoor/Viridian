@@ -20,7 +20,7 @@
 
 import React from 'react';
 import './Navbar.css'; // Import your CSS file for styling
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const Navbar = () => {
   return (
@@ -30,6 +30,13 @@ const Navbar = () => {
         <Link to="/">
           VIRIDIAN
         </Link>
+      </div>
+      <div className="links">
+        {/* Use the Link component to navigate to the root URL */}
+        <Link to="/" className="nav-button">
+          Home
+        </Link>
+        <Link to="/" className="nav-button"></Link>
       </div>
     </div>
       <div className="navbar-right">
